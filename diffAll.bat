@@ -1,46 +1,13 @@
 @echo on
-set root=C:\ws\git
+set root=%1
 
-cd %root%\BingAdsAPI
+cd %root%\project-1
 start git diff
 echo ==========================================================
-cd %root%\BingSenticLabel
+cd %root%\project-2
 start git diff
 echo ==========================================================
-cd %root%\CBqueryLayer
-start git diff
-echo ==========================================================
-cd %root%\dedup
-start git diff
-echo ==========================================================
-cd %root%\Deletioner
-start git diff
-echo ==========================================================
-cd %root%\ESqueryLayer
-start git diff
-echo ==========================================================
-cd %root%\FinalUrlsOpts
-start git diff
-echo ==========================================================
-cd %root%\googleAdwordsAPI
-start git diff
-echo ==========================================================
-cd %root%\LinkExtractor
-start git diff
-echo ==========================================================
-cd %root%\OutgoingSyncInterface
-start git diff
-echo ==========================================================
-cd %root%\Prosumer
-start git diff
-echo ==========================================================
-cd %root%\SenticLogger
-start git diff
-echo ==========================================================
-cd %root%\Utils
-start git diff
-echo ==========================================================
-cd %root%\KenshooAPI
+cd %root%\project-n
 start git diff
 echo ==========================================================
 
